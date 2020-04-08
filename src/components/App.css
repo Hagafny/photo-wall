@@ -1,0 +1,26 @@
+.background {
+  background: url("../assets//background.jpg") no-repeat center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.imageContainer {
+  position: fixed;
+  width: 50%;
+  height: 40%;
+  left: 30%;
+  top: 10%;
+  display: flex;
+}
+
+.tile {
+  border-color: red;
+  width: 150;
+  height: 120px;
+  padding: 10;
+  border-width: 50px;
+  border-style: solid;
+  border-image: url("../assets/black.png") 25% round;
+}
